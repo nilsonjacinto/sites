@@ -1,0 +1,49 @@
+@charset "UTF8";
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: gray;
+}
+
+h1 {
+    color: black;
+    text-shadow: 0.1em 0.1em rgba(255, 255, 255, 0.403);
+    font-size: 50px;
+    text-align: center;
+}
+
+div {
+    width: 220px;
+}
+
+div>p {
+    display: none;
+}
+
+div:hover>p {
+    display: block;
+}
+
+h2 {
+    color: aqua;
+}
+
+h2:hover {
+    color: yellow;
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
+    text-decoration: none;
+}
+
+.seta {
+    background-color: rgba(255, 255, 255, 0.218);
+    width: 30px;
+    display: block;
+}
